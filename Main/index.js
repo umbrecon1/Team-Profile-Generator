@@ -244,3 +244,17 @@ function appMenu() {
         createTeam();
       });
   }
+
+  function buildTeam() {
+    // Create the output directory if the dist path doesn't exist
+    if (!fs.existsSync(DIST_DIR)) {
+      fs.mkdirSync(DIST_DIR);
+    }
+    fs.writeFileSync(distPath, render(teamMembers), 'utf-8');
+  }
+
+  createManager();
+}
+
+appMenu();
+
