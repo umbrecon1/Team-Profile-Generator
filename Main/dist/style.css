@@ -1,6 +1,10 @@
+body {
+  background-color: black;
+}
+
 .team-heading {
-  background-color: #e84855;
-  color: #ffffff;
+  background-color: cyan;
+  color: lightslategray;
 }
 
 .team-area {
@@ -14,12 +18,12 @@
   max-width: 280px;
   width: 90%;
   min-height: 22rem;
-  background-color: #007bff;
-  color: white;
+  background-color: hotpink;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 4px 4px 8px white;
   border: none;
 }
 
