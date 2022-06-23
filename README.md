@@ -13,7 +13,9 @@ No License Chosen
 - This assignment was to create an application that takes in information about employees for a software engineering team and displays summaries of each person. 
 
 ## Application Preview
-<img alt="README Gen Demo 1" src="">node 
+ https://drive.google.com/file/d/1ducaUzN-dYnkzq9MAcDffNiwxfs4GKgu/view
+
+ ![screenshot](Assets\screenshot.png)
 
 ## Installation
 - npm i
